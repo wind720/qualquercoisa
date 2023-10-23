@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 159, 159);
+}
+@font-face {
+    font-family: "jjk";
+    src: url(jujutsu-kaisen/Jujutsu\ Kaisen.ttf);
+}
+header{
+    display: block;
+    background-color: rgb(241, 75, 75);
+    box-shadow: 0px 3px 0px 0px rgb(105, 11, 7);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+    align-self: center;
+    color: rgb(136, 27, 19);
+}
+
+.mousesinho{
+    display: inline;
+    float:right;
+    width: 100px;
+    height: 100px;
+}
+span{
+    font-size: 30px;
+}
+
+.titulo{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 50px;
+    font-family: "jjk";
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.textinho{
+    display: flex;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.botoes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+#a, #b{
+    margin: 10px;
+    width: 120px;
+    height: 90px;
+}
+button{
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #DEDACE;
+    transition: ease-out 0.3s;
+}
+button:hover{
+    border-radius: 20px;
+    border: solid rgb(241, 75, 75);
+    box-shadow: rgba(54, 54, 54, 0.418) 5px 5px 5px;
+}
+a{
+    cursor: default;
+}
+.img1{
+    width: 90%;
+    height: 100%;
+}

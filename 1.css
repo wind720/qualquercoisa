@@ -1,0 +1,300 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 159, 159);
+}
+
+@font-face {
+    font-family: "jjk";
+    src: url(jujutsu-kaisen/Jujutsu\ Kaisen.ttf);
+}
+
+header{
+    display: block;
+    background-color: rgb(241, 75, 75);
+    box-shadow: 0px 3px 0px 0px rgb(105, 11, 7);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+    align-self: center;
+    color: rgb(136, 27, 19);
+}
+p{
+    margin: 10px;
+}
+
+.mousesinho{
+    display: inline;
+    float:right;
+    width: 100px;
+    height: 100px;
+}
+
+span{
+    font-size: 30px;
+}
+
+.visivel{
+    display: grid;
+}
+.invi{
+    display: none;
+}
+.a9{
+    font-family: "jjk";
+    color:rgb(241, 75, 75); 
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+.a10{
+    font-family: "jjk";
+    color:rgb(241, 75, 75); 
+    text-decoration: underline;
+    font-size: 20px;
+}
+.a11{
+    font-family: "jjk";
+    color:rgb(241, 75, 75); 
+    text-decoration: underline;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+.a12{
+    font-family: "jjk";
+    color:rgb(241, 75, 75); 
+    text-decoration: underline;
+    font-size: 19px;
+}
+.a13{
+    font-family: "jjk";
+    color:rgb(241, 75, 75); 
+    text-decoration: underline;
+    font-size: 18px;
+}
+.a14{
+    cursor: pointer;
+    background-color: #DEDACE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 30px;
+    transition: ease-out 0.3s;
+}
+.a14:hover{
+    border-radius: 20px;
+    border: solid rgb(241, 75, 75);
+    box-shadow: rgba(54, 54, 54, 0.418) 5px 5px 5px;
+}
+.a15{
+    cursor: pointer;
+    background-color: #DEDACE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    transition: ease-out 0.3s;
+}
+.a15:hover{
+    border-radius: 20px;
+    border: solid rgb(241, 75, 75);
+    box-shadow: rgba(54, 54, 54, 0.418) 5px 5px 5px;
+}
+.a16{
+    margin: auto;
+    width: 110px;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    border: 3px solid black;
+    background-color: rgb(241, 75, 75);
+    transition: ease-out 0.3s;
+}
+.a16:hover{
+    border-radius: 20px;
+    background-color: rgb(204, 18, 105);
+    border: solid rgb(94, 6, 97);
+    box-shadow: rgba(54, 54, 54, 0.418) 5px 5px 5px;
+}
+.a17{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 100px;
+    padding: 5px;
+    justify-content: center;
+    margin: auto;
+}
+.a18{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.b18{
+    display: flex;
+    flex-direction: row;
+    row-gap: 100px;
+}
+#bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7, #bt8, #bt9, #bt10, #bt11{
+    width: 30%;
+    height: 30%;
+    cursor: pointer;
+}
+#finalbutton19{
+    padding-top: 30px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+}
+.tabela20{
+    display: table;
+    vertical-align: middle;
+    width: 600px;
+    height: 500px;
+}
+#finalbutton20{
+    padding-top: 30px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+}
+.a21{
+    display: grid;
+    vertical-align: middle;
+    align-self: center;
+    align-items: center;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 100px;
+    padding: 5px;
+    justify-content: center;
+    margin: auto;
+
+}
+#finalbutton21{
+    padding-top: 30px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+}
+.jjkmanga{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%;
+    padding: 7px;
+    border: 5px solid rgb(105, 11, 7);
+}
+#off {
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    background-color:#f3eaeaa4 ;
+}
+#finalbutton27{
+    padding-top: 30px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+}
+.a27{
+    display: flex;
+    flex-direction: row;
+    gap: 750px;
+}
+#finalbutton28{
+    padding-top: 30px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+}
+.a31{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}
+#img31{
+    padding: 20px;
+}
+#s1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#s2{
+    display: block;
+    width: 10%;
+}
+#s4{
+    display: block;
+    width: 20%;
+}
+#finalbutton32{
+    margin-left: auto;
+    margin-right: auto;
+}
+#finalbutton34{
+    margin-left: auto;
+    margin-right: auto;
+}
+#finaltable{
+    text-align: left;
+    margin-top: 30px;
+    width: 60%;
+    border: 5px solid rgb(105, 11, 7);
+    border-collapse: collapse;
+}
+#finaltable th, tr, td{
+    height: 30px;
+    border: 2px solid rgb(105, 11, 7);
+    border-collapse: collapse;
+    padding: 10px;
+}
+#back{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7%;
+    height: 3%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    transition: ease-in-out 0.3s;
+    background-color: #DEDACE;
+    color: rgb(136, 27, 19);
+    font-family:'jjk';
+    font-size: 110%;
+    box-shadow:#aaaaaa 4px 4px 5px;
+}
+#back:hover{
+    border-radius: 5px;
+    width: 6%;
+    height: 3%;
+    background-color: rgb(105, 11, 7);
+    color: rgb(255, 159, 159);
+    box-shadow:rgb(46, 4, 3) 5px 5px 2px;
+    cursor: pointer;
+}
